@@ -7,11 +7,11 @@ package com.loveason.leetcode.simple;
  */
 public class T7 {
     public static void main(String[] args) {
-        System.out.println(test(1234));
+        System.out.println(reverse(-123));
     }
 
-    private static int test(int num) {
-        String value = String.valueOf(num);
+    private static int reverse(int x) {
+        String value = String.valueOf(x);
         String[] split = value.split("");
         String[] strings;
         String temp = value;
