@@ -1,9 +1,5 @@
 package com.loveason.leetcode.simple;
 
-import java.util.*;
-import java.util.jar.JarEntry;
-import java.util.stream.Collectors;
-
 /**
  * @author yangjie
  * @description 快乐数
