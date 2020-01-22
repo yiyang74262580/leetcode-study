@@ -14,11 +14,11 @@ public class T202 {
         int num = n;
         int times = 0;
         while (num != 1) {
-            char[] strings = Integer.toString(num).toCharArray();
+            char[] chars = Integer.toString(num).toCharArray();
             num = 0;
-            for (char string : strings) {
+            for (char c : chars) {
                 // 转换为数组并求和
-                int d = ((int)string - (int)('0'));
+                int d = ((int)c - (int)('0'));
                 num += d * d;
             }
 
