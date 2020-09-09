@@ -1,4 +1,4 @@
-package com.loveason.leetcode.simple;
+package com.loveason.leetcode.simple.lcci;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -8,10 +8,10 @@ import java.util.Set;
  * @author yangjie
  * @date 2020/8/19 13:45
  */
-public class IsUniqueLcci {
+public class T0101 {
     public static void main(String[] args) {
         String s = "abc";
-        System.out.println(new IsUniqueLcci().isUnique(s));
+        System.out.println(new T0101().isUnique(s));
     }
 
     public boolean isUnique(String astr) {

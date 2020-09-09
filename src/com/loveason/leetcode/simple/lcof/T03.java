@@ -1,4 +1,4 @@
-package com.loveason.leetcode.simple;
+package com.loveason.leetcode.simple.lcof;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -8,11 +8,11 @@ import java.util.Set;
  * @author yangjie
  * @date 2020/8/19 12:18
  */
-public class FindRepeatNumber {
+public class T03 {
 
     public static void main(String[] args) {
         int[] nums = new int[]{2, 3, 1, 0, 2, 5, 3};
-        System.out.println(new FindRepeatNumber().findRepeatNumber(nums));
+        System.out.println(new T03().findRepeatNumber(nums));
     }
 
     public int findRepeatNumber(int[] nums) {
