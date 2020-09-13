@@ -1,8 +1,7 @@
 package com.loveason.leetcode.simple;
 
-import java.util.HashSet;
-
 /**
+ * 1512. 好数对的数目
  * @author yangjie
  * @date 2020/9/11 21:26
  */
