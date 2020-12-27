@@ -26,6 +26,8 @@ public class Solution {
 
         int[][] grid = {{4,3,2,-1},{3,2,1,-1},{1,1,-1,-2},{-1,-1,-2,-3}};
         System.out.println(solution.countNegatives(grid));
+
+        System.out.println(solution.numberOfMatches(14));
     }
 
     /**
@@ -134,6 +136,28 @@ public class Solution {
         return x;
     }
 
+    /**
+     * 1688. 比赛中的配对次数
+     * @param n
+     * @return
+     */
+    public int numberOfMatches(int n) {
+        int sum = 0;
+        int j = 0;
+        int k;
+        while ((k = n + j) != 1) {
+            // 奇数
+            if (k % 2 != 0) {
+                j = 1;
+            } else {
+                j = 0;
+            }
+            n = k / 2;
+            sum += n;
+        }
+
+        return sum;
+    }
 }
 
 
